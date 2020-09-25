@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppHerois</string>
+    <string name="busca_heroi">Nome Herói</string>
+    <string name="botao_busca">Buscar</string>
+</resources>
