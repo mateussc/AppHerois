@@ -8,7 +8,6 @@ public class Heroi implements Serializable, Comparable<Heroi>{
     private String poderPrincipal;
     private String nome;
     private String descricao;
-    private Date dataNascimento;
     private String posterPath;
     private String backdropPath;
 
@@ -44,14 +43,6 @@ public class Heroi implements Serializable, Comparable<Heroi>{
         this.descricao = descricao;
     }
 
-    public Date getDataNascimento() {
-        return dataNascimento;
-    }
-
-    public void setDataNascimento(Date dataNascimento) {
-        this.dataNascimento = dataNascimento;
-    }
-
     public String getPosterPath() {
         return posterPath;
     }
@@ -60,13 +51,13 @@ public class Heroi implements Serializable, Comparable<Heroi>{
         this.posterPath = posterPath;
     }
 
-    public String getBackdropPath() {
-        return backdropPath;
-    }
-
-    public void setBackdropPath(String backdropPath) {
-        this.backdropPath = backdropPath;
-    }
+//    public String getBackdropPath() {
+//        return backdropPath;
+//    }
+//
+//    public void setBackdropPath(String backdropPath) {
+//        this.backdropPath = backdropPath;
+//    }
 
     @Override
     public String toString() {
@@ -74,7 +65,6 @@ public class Heroi implements Serializable, Comparable<Heroi>{
                 "id=" + id +
                 ", titulo='" + nome + '\'' +
                 ", descricao='" + descricao + '\'' +
-                ", dataLancamento=" + dataNascimento +
                 ", posterPath='" + posterPath + '\'' +
                 ", backdropPath='" + backdropPath + '\'' +
                 '}';
